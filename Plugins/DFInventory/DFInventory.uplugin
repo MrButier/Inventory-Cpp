@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "EngineVersion": "5.6",
+  "FriendlyName": "Demon Forge Inventory",
+  "Description": "Runtime inventory systems for DF projects.",
+  "Category": "Gameplay",
+  "CreatedBy": "Demon Forge Studio",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "https://demonforgestudio.com/support",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "DFInventory",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": ["Win64", "Mac"]
+    },
+    {
+      "Name": "DFInventoryEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": ["Win64", "Mac"]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "StructUtils",
+      "Enabled": true
+    }
+  ]
+}

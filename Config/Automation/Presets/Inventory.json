@@ -1,0 +1,13 @@
+{
+	"id": "Inventory",
+	"name": "Inventory",
+	"enabledTests": [
+		"InventoryComponent.LoadInventory.Nonexistent",
+		"InventoryComponent.SaveInventory.NoWorld",
+		"InventoryComponent.SaveLoad.RoundTrip",
+		"InventoryComponent.AddSingleItem",
+		"InventoryComponent.InventoryFull",
+		"InventoryComponent.RemoveItem",
+		"InventoryComponent.StackItems"
+	]
+}
